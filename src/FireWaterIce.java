@@ -2,18 +2,19 @@ import java.util.Scanner;
 
 public class FireWaterIce {
     public static void main(String []args){
-        //int [] myNumbers = new int[5];
-       // for(int i=0;i<myNumbers.length );
-        Scanner keyboard = new Scanner(System.in);
-        System.out.println("Fire, Water, Ice");
-        System.out.println("Water beats fire");
-        System.out.println("Fire beats ice");
-        System.out.println("Ice beats water");
-        while (1==1){
-            System.out.println("1 is fire, 2 is water, 3 is ice.");
-            game();
-        }
 
+
+        //System.out.println("Fire, Water, Ice");
+        //System.out.println("Water beats fire");
+        //System.out.println("Fire beats ice");
+        //System.out.println("Ice beats water");
+        //while (1==1){
+         //   System.out.println("1 is fire, 2 is water, 3 is ice.");
+          //  game();
+        //}
+        int [] myNumbers = new int[5];
+        for(int i=0;i<myNumbers.length;i++) {
+            System.out.println(myNumbers[i]+1);
     }
     public static String game(){
         Scanner keyboard = new Scanner(System.in);
@@ -57,6 +58,8 @@ public class FireWaterIce {
             }
         }
         return "error";
+
+        }
     }
 
 
